@@ -10,3 +10,7 @@ local.properties
 *.jks
 *.keystore
 captures/
+
+# Private reference files — never commit.
+/成绩趋势图*v2*.pdf
+/0dedd2cd322136385b3dc27446b92fd3.jpg
