@@ -1,0 +1,6 @@
+Final optimized APK native UI: six-subject exam created using public editor controls.
+Raw total=622.125; awarded total=646.25.
+Raw and awarded radar views opened with exact score table.
+Deletion cancellation retained 2026-10; confirmed deletion returned to the previous retained exam 同日第二场 with 2 / 2 records.
+Screenshots saved before final emulator-only cleanup.
+Final APK after last boundary fix: filtered 高二上, deleted both emulator fixture exams; empty state and 全部考试 verified.

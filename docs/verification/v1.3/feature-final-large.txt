@@ -1,0 +1,8 @@
+
+com.grandetrend.app.ExamDetailFlowTest:.....
+
+Time: 49.332
+
+OK (5 tests)
+
+

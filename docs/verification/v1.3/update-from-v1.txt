@@ -1,0 +1,13 @@
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 532 ms
+Performing Streamed Install
+Success
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 286 ms
+dist/grandeTrend-v1.apk to dist/grandeTrend-v1.3.apk overwrite installation: all grade and preference values retained.

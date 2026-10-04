@@ -1,0 +1,13 @@
+
+com.grandetrend.app.AppFlowTest:....
+com.grandetrend.app.BackupFlowTest:..
+com.grandetrend.app.BackupTest:.....
+com.grandetrend.app.EditorFlowTest:...
+com.grandetrend.app.ExamDetailFlowTest:.....
+com.grandetrend.app.RepositoryAndExportTest:..
+
+Time: 119.033
+
+OK (21 tests)
+
+

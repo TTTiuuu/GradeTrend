@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.grandetrend.app.domain.GradeRulesTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-04T05:32:58" hostname="work" time="0.064">
+  <properties/>
+  <testcase name="officialOverridesAreIndependentAndDoNotInventRanks" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.026"/>
+  <testcase name="viewportCanZoomBackToAllAndPanBothDirections" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.006"/>
+  <testcase name="rankingAxisPutsBetterRanksHigherAndIsIndependentOfScoreAxis" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.001"/>
+  <testcase name="equalScoresAndNoDataProduceNonZeroAxisRanges" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.001"/>
+  <testcase name="invalidRankAndOverMaxNeedCorrectionOrExplicitConfirmation" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.023"/>
+  <testcase name="editingPreservesIdentityAndAllowsDecimalZeroAndNull" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.0"/>
+  <testcase name="sortingAndFilteringAreStableAndSeparateFromZoom" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.004"/>
+  <testcase name="awardedTotalNeverSubstitutesMissingRawOrAwarded" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.0"/>
+  <testcase name="metricRoutingHasOneSubjectRankAndIndependentTotalRanks" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.001"/>
+  <testcase name="maximaBelongToEachExamAndScoresAreNotPercentages" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.0"/>
+  <testcase name="exactDecimalTotalsPreserveZeroAndMissing" classname="com.grandetrend.app.domain.GradeRulesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

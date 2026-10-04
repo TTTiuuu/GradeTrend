@@ -1,0 +1,9 @@
+
+com.grandetrend.app.AppFlowTest:....
+com.grandetrend.app.BackupFlowTest:..
+
+Time: 41.623
+
+OK (6 tests)
+
+

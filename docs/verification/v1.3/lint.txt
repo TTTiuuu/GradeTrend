@@ -1,0 +1,75 @@
+/home/ethan/Project_T/grandeTrend/app/src/main/AndroidManifest.xml:14: Warning: Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed. [DiscouragedApi]
+            android:screenOrientation="sensorLandscape"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+/home/ethan/Project_T/grandeTrend/app/src/main/java/com/grandetrend/app/ui/BackupDialog.kt:57: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+            backup = withContext(Dispatchers.IO) { BackupFiles.read(context, Uri.parse(uri)) }
+                                                                             ~~~~~~~~~~~~~~
+/home/ethan/Project_T/grandeTrend/app/src/main/java/com/grandetrend/app/ui/BackupDialog.kt:67: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+            withContext(Dispatchers.IO) { BackupFiles.export(context, Uri.parse(uri), repository, exportingPrevious) }
+                                                                      ~~~~~~~~~~~~~~
+/home/ethan/Project_T/grandeTrend/app/src/main/java/com/grandetrend/app/data/ImageExporter.kt:32: Warning: Use the KTX function createBitmap instead? [UseKtx]
+        val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ethan/Project_T/grandeTrend/app/src/main/java/com/grandetrend/app/data/ImageExporter.kt:48: Warning: Use the KTX extension function Canvas.withTranslation instead? [UseKtx]
+        canvas.save(); canvas.translate(40f, 242f)
+        ~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 5 warnings

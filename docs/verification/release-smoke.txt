@@ -1,0 +1,1 @@
+Optimized signed APK: launch, input, save and force-stop persistence passed (123.25).

@@ -1,0 +1,9 @@
+
+com.grandetrend.app.AppFlowTest:....
+com.grandetrend.app.RepositoryAndExportTest:..
+
+Time: 50.498
+
+OK (6 tests)
+
+

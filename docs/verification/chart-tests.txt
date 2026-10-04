@@ -1,0 +1,8 @@
+
+com.grandetrend.app.AppFlowTest:.
+
+Time: 15.504
+
+OK (1 test)
+
+

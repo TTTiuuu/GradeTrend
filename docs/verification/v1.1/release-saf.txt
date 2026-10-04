@@ -1,0 +1,7 @@
+Optimized v1.1 APK: system CreateDocument saved JSON in Downloads.
+Cleared only the dedicated emulator app data.
+System OpenDocument reopened the external JSON, previewed 2 exams, and restored scores and preferences.
+Exported restored data again: every exam field and preference equals the original export.
+Historical hidden subjects, zero 0.00000000, nulls, max 80.50, ranks, note, date/order, official totals, and empty metric selection preserved.
+Final APK SHA-256: 44c49364d16e180be4a897d1c15fe3a17788524e0357c92b0a4ce650cd95d2d1
+Repeated real system OpenDocument restore and CreateDocument export on the final APK: every record and preference equal.

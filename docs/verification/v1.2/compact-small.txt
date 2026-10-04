@@ -1,0 +1,9 @@
+
+com.grandetrend.app.AppFlowTest:....
+com.grandetrend.app.EditorFlowTest:...
+
+Time: 48.02
+
+OK (7 tests)
+
+

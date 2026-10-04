@@ -1,0 +1,68 @@
+{
+  "format": "grandeTrend-backup",
+  "version": 1,
+  "exportedAt": "2026-10-04T06:59:28.253675Z",
+  "preferences": {
+    "metrics_MATH": "",
+    "metrics_total": "RAW,AWARDED_RANK",
+    "subjects": "HISTORY,POLITICS"
+  },
+  "exams": [
+    {
+      "id": "upgrade-1",
+      "name": "升级保留月考",
+      "date": "2025-09-01",
+      "semester": "高二上",
+      "note": "保留备注",
+      "sequence": "7",
+      "rawRank": 321,
+      "awardedRank": null,
+      "rawOverride": "121.125",
+      "awardedOverride": null,
+      "scores": [
+        {
+          "subject": "MATH",
+          "maxScore": "120",
+          "raw": "0.00000000",
+          "awarded": null,
+          "rank": null
+        },
+        {
+          "subject": "BIOLOGY",
+          "maxScore": "80.50",
+          "raw": "71.125",
+          "awarded": null,
+          "rank": 120
+        }
+      ]
+    },
+    {
+      "id": "upgrade-2",
+      "name": "同日第二场",
+      "date": "2025-09-01",
+      "semester": "高二上",
+      "note": "同日稳定排序",
+      "sequence": "9",
+      "rawRank": 123,
+      "awardedRank": 111,
+      "rawOverride": null,
+      "awardedOverride": "198.875",
+      "scores": [
+        {
+          "subject": "MATH",
+          "maxScore": "150",
+          "raw": "111.125",
+          "awarded": null,
+          "rank": 100
+        },
+        {
+          "subject": "BIOLOGY",
+          "maxScore": "100",
+          "raw": null,
+          "awarded": "87.750",
+          "rank": 90
+        }
+      ]
+    }
+  ]
+}
